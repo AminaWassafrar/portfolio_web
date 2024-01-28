@@ -1,0 +1,44 @@
+div{
+    border: 1px solid purple;
+    border-radius: 15%;
+    max-width: 50%;
+    padding: 1px;
+    text-align: center;
+    background-color: lightpink;
+    
+    
+}
+div span{
+   text-shadow: 1px 1px 2px purple;
+   box-shadow: 1px 1px 2px purple;
+}
+.button{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 10px; 
+    background-color: purple;
+    width: 200px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+.test2{
+    border: 2px solid violet;
+    height: 25px;
+    border-radius: 5px;
+}
+.test{
+    border: 2px solid violet;
+    height: 25px;
+    border-radius: 5px;
+}
+img{
+    width: 30px;
+}
+h3{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fille{
+    width: 500px;
+}
+

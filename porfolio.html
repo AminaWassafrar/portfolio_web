@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+    <style>
+        
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+     *{
+        font-family: 'Poppins',  sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+     }
+     img{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        
+     }
+     header{
+        background-color: rgb(220, 200, 239);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px 100px;
+     }
+     .logo1{
+        text-decoration: none;
+        color: darkblue;
+        font-weight: 800;
+        font-size: 1.6em;
+     }
+     .navigation a{
+        text-decoration: none;
+        color: rgb(77, 2, 91);
+        font-size: 25px;
+        font-weight: 500;
+        padding-left: 15px;
+     }
+     .navigation  :hover{
+        color: red;
+        
+        
+
+     }
+     section{
+        padding: 90px 150px;
+
+     }
+     .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(images/HD\ wallpaper_\ Windows\ 10\,\ Microsoft\ Windows\,\ operating\ system\,\ logo\,\ purple.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+     .main h2{
+        color: rgb(230, 214, 245);
+        font-size: 1.4em;
+        font-weight: 500;
+     }
+     .main h2 span{
+        color: rgb(158, 63, 248);
+        font-size: 2.3em;
+        font-weight: 600;
+     }
+     .main h3,h4{
+        color: rgb(207, 224, 240);
+     }
+      .main-social{
+        text-decoration-line: none;
+        border: 1px solid snow;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: rgb(107, 9, 137);
+        color: aliceblue;
+        font-weight: 600;
+        transition: 0.5s;
+        display: inline-block;
+
+
+     }
+     .main-social:hover{
+        background-color:whitesmoke ;
+        color: blueviolet;
+        transform: scale(1.2);
+     }
+     .icon-social a{
+        padding-right: 20px;
+        color: rgb(121, 108, 235);
+        display: inline-block;
+        transition: 0.6s;
+     }
+     .icon-social a:hover{
+         color: rgb(192, 140, 241);
+         transform: scale(1.4);
+     }
+     .title{
+      /*un element bloc*/
+      display: flex;
+      justify-content: center;
+      color: blueviolet;
+      font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 35px;
+
+     }
+     .content{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+     }
+     .card{
+      background-color: rgb(245, 206, 231);
+      width: 900px;
+      height: 100px;
+      box-shadow: 0 -6px 25px grey;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      transition: 0.5s;
+     }
+     .card:hover{
+      transform: scale(1.1)
+     }
+     .icon{
+      color: darkblue;
+      text-align: center;
+     }
+     .cv-info strong{
+      font-weight: 700;
+      color: brown;
+     }
+     .cv-info .lagague{
+      color: rgb(47, 0, 255);
+     }
+    </style>
+
+    
+</head>
+<body>
+    <header>
+        
+        <a href="#" class="logo1"><i class="fa-solid fa-folder"></i> AMINA</a>
+        <nav class="navigation">
+            <a href="#Acceuil">Acceuil</a>
+            <a href="#MonCV">Mon CV</a>
+            <a href="#NosProjets">Nos Projets</a>
+            <a href="#">Contactez</a>
+        </nav>
+       
+    </header>
+    
+    
+       
+   
+    <section class="main">
+        
+       <div>
+        <h2>Bonjour,je suis Amina <br> <span>Stagaire</span></h2>
+        <h3>stagaire de premier année en developpement digital </h3>
+        <h4>j'etudie actuellement à la CMC AGADIR</h4> <br>
+        <a href="#NosProjets" class="main-social">voir les projets</a><br>
+        <div class="icon-social">
+            
+            <br>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/AminaWassafrar"><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/amina-wassafrar-a65b08293/"><i class="fa-brands fa-linkedin"></i></a>
+            
+        </div>
+       </div>
+    </section>
+    <!---->
+    <section class="cards" id="NosProjets">
+      <h2 class="title"><b>Nos projets</b></h2>
+      <div class="content">
+         <div class="card">
+            <div class="icon">
+               
+               <div class="info">
+                 <h3> <i class="fa-solid fa-right-to-bracket"></i> j'ai crée une page de connexion</h2>
+                  <p><a href="icons.html">allez à  la page de login Academy </a></p>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="icon">
+               
+               <div class="info">
+                 <h3>au autre projets</h2>
+                  <p><a href="simpleproject.html"> <i class="fa-solid fa-right-to-bracket"></i>allez au projets </a></p>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="icon">
+               
+               <div class="info">
+                 <h3> simple sign in page</h2>
+                  <p><a href="tp00.html"> <i class="fa-solid fa-right-to-bracket"></i>allez au page </a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+    <section class="MonCV" id="MonCV">
+      <h2 class="title">Mon CV</h2>
+      <div class="content">
+         <div class="CV-card">
+            <div class="cv-image">
+               <img src="" alt="">
+            </div>
+            <div class="cv-info">
+               <strong><i class="fa-solid fa-user-graduate"></i>  EDUCATION</strong>
+               <p>-Baccalauriat 2023 science physique-chimie</p>
+               <strong><i class="fa-solid fa-school-flag"></i>  Formation</strong>
+               <p>-Developpement digital à la CMC agadir </p>
+               <strong><i class="fa-solid fa-language"></i> LANGUES</strong>
+               <p class="lagague"><b>-ARABE :</b> avancé</p>
+               <p class="lagague" ><b>-FRANCAIS :</b> intermidaire (B2)</p>
+               <p class="lagague"><b>-ANGLAIS :</b > débutant (A2)</p>
+            </div>
+         </div>
+      </div>
+
+    </section>
+</body>
+</html>
